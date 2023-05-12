@@ -10,5 +10,6 @@ A kernel driver for reading and writing memory. Contains a test that writes to n
  - The function addresses are currently hardcoded for Windows 11 kernel 10.0.22000.376. A signature scanner can (and should) be added to avoid this.
 
 # Credits
-JD96 for answering questions
-[Frostiest](https://www.unknowncheats.me/forum/anti-cheat-bypass/444289-read-process-physical-memory-attach.html) for his physmem class, since I had to add it in at the last minute that the Apex version of EAC supposedly detects KeStackAttach.
+• JD96 for answering questions, of course! ☺️
+
+• [Frostiest](https://www.unknowncheats.me/forum/anti-cheat-bypass/444289-read-process-physical-memory-attach.html) for his physmem class, since I had to add it in at the last minute after I found out that the Apex version of EAC supposedly detects `KeStackAttach()`.
