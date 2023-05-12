@@ -184,7 +184,7 @@
     <ClCompile Include="physmem.c" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="..\x64\Debug\assembly.asm" />
+    <MASM Include="assembly.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

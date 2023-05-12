@@ -35,7 +35,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="..\x64\Debug\assembly.asm">
+    <MASM Include="assembly.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
