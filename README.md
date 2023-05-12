@@ -1,7 +1,7 @@
 # ReadWriteDriver
 A kernel driver for reading and writing memory. Contains a test that writes to notepad.exe's memory, and classes to read/write to two games (Halo: MCC & Apex Legends) which are protected by EAC. I also created a modified version of ReClass.NET that utilizes the driver for its read/write operations, but the laptop I had it on sustained water damage and was destroyed. I will recreate it when I have the time.
 
-**Please note that The function addresses are currently hardcoded for Windows 11 kernel 10.0.22000.376. A signature scanner can (and should) be added in the future to avoid this.**
+**Please note that the function addresses are currently hardcoded for Windows 11 kernel 10.0.22000.376. A signature scanner can (and should) be added in the future to avoid this.**
 
 ![image](https://user-images.githubusercontent.com/60713027/147486318-eec99aa1-a0d5-4de1-a748-adba27aa5e2e.png)
 
